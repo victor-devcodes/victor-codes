@@ -15,6 +15,11 @@ export default function Contact() {
   return (
     <main>
 
+      <SEO
+        title="Contact Victor Codes"
+        description="Get in touch with Victor Codes about your website, web application or digital project."
+        path="/contact"
+      />
       {/* HERO */}
 
       <section className="relative overflow-hidden bg-slate-950 text-white">

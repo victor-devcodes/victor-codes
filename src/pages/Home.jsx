@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import Section from "../components/ui/Section";
 import Container from "../components/ui/Container";
 
+import SEO from "../components/seo/SEO";
 import {
   FiArrowUpRight,
   FiCheck,
@@ -41,6 +42,11 @@ export default function Home() {
   return (
     <main>
 
+      <SEO
+        title="Web Developer & React Specialist"
+        description="Victor Codes builds fast, responsive and modern websites and web applications for businesses, entrepreneurs and growing brands."
+        path="/"
+      />
       {/* =====================================================
           HERO
       ====================================================== */}

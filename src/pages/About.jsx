@@ -7,6 +7,7 @@ import {
   FiZap,
 } from "react-icons/fi";
 import { Link } from "react-router-dom";
+import SEO from "../components/seo/SEO";
 
 import Container from "../components/ui/Container";
 import Section from "../components/ui/Section";
@@ -54,7 +55,11 @@ const technologies = [
 export default function About() {
   return (
     <main>
-
+            <SEO
+              title="About | Victor Codes"
+              description="Learn more about Victor Codes, a web developer focused on building modern, responsive and user-friendly digital experiences."
+              path="/about"
+            />
       {/* =====================================================
           HERO
       ====================================================== */}

@@ -10,6 +10,7 @@ import {
   FiCalendar,
   FiClock,
 } from "react-icons/fi";
+import SEO from "../components/seo/SEO";
 
 import { Link } from "react-router-dom";
 
@@ -75,6 +76,11 @@ export default function BookConsultation() {
   return (
     <main>
 
+      <SEO
+        title="Book a Free Web Development Consultation"
+        description="Tell Victor Codes about your website or web application project and book a free consultation to discuss your goals, budget, timeline and technical requirements."
+        path="/book-consultation"
+      />
       {/* HERO */}
 
       <section className="bg-slate-950 text-white">

@@ -14,14 +14,16 @@ import ConsultationPage from './pages/BookConsultation'
 
 import ScrollToTop from './components/ui/ScrollToTop'
 import WhatsAppButton from './components/ui/WhatsAppButton'
-
+import StructuredData from './components/seo/StructuredData'
 
 function App() {
   return (
     
     <div className="min-h-screen bg-white text-slate-950">
-      
+      <StructuredData />
+
       <Navbar />
+
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<About />} />
@@ -33,6 +35,7 @@ function App() {
         <Route path="/book-consultation" element={<ConsultationPage />} />
         <Route path="*" element={<HomePage />} />
       </Routes>
+      
       <Footer />
 
       <ScrollToTop />

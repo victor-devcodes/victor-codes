@@ -13,6 +13,7 @@ import {
 } from "react-icons/fi";
 
 import { Link } from "react-router-dom";
+import SEO from "../components/seo/SEO";
 
 import Container from "../components/ui/Container";
 import Section from "../components/ui/Section";
@@ -196,6 +197,11 @@ export default function Services() {
   return (
     <main>
 
+        <SEO
+          title="Web Development Services"
+          description="Professional web development services including responsive websites, React applications, frontend development, full-stack development and custom web solutions."
+          path="/services"
+        />
       {/* =====================================================
           HERO
       ====================================================== */}

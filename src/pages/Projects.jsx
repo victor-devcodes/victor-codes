@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 
 import Container from "../components/ui/Container";
 import Section from "../components/ui/Section";
+import SEO from "../components/seo/SEO";
 
 import project1 from "../assets/images/property-1.jpg";
 import project2 from "../assets/images/property-2.jpg";
@@ -180,7 +181,11 @@ export default function Projects() {
 
   return (
     <main>
-
+        <SEO
+          title="Projects | Victor Codes"
+          description="Explore selected websites, web applications and digital products built by Victor Codes using modern frontend and full-stack technologies."
+          path="/projects"
+        />
       {/* =====================================================
           HERO
       ====================================================== */}

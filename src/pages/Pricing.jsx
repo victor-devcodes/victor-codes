@@ -6,6 +6,7 @@ import {
   FiHelpCircle,
   FiMessageCircle,
 } from "react-icons/fi";
+import SEO from "../components/seo/SEO";
 
 import Container from "../components/ui/Container";
 import Section from "../components/ui/Section";
@@ -101,6 +102,11 @@ export default function Pricing() {
   return (
     <main>
 
+      <SEO
+        title="Web Development Pricing"
+        description="Explore straightforward starting prices for responsive websites, business websites, web applications and custom development projects."
+        path="/pricing"
+      />
       {/* HERO */}
 
       <section className="relative overflow-hidden bg-slate-950 text-white">

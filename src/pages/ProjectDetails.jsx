@@ -192,13 +192,12 @@ export default function ProjectDetails() {
               </h1>
 
               <p className="mt-4 text-slate-500">
-                The project you're looking for may have moved or doesn't
-                exist yet.
+                The project you're looking for may have moved or unvailable at the moment.
               </p>
 
               <Link
                 to="/projects"
-                className="mt-8 inline-flex items-center gap-2 rounded-full bg-slate-950 px-6 py-3.5 text-sm font-bold text-white"
+                className="button mt-8 inline-flex items-center gap-2 rounded-xl bg-slate-950 px-6 py-3.5 text-sm font-bold text-white hover:bg-brand"
               >
                 <FiArrowLeft />
                 Back to projects
