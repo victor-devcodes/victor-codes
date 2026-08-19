@@ -13,6 +13,7 @@ import {
 } from "react-icons/fi";
 
 import { projects, services, process, technologies } from "../data/homeData";
+import passportPhoto from "../assets/images/victor-passport.jpg";
 
 function SectionTitle({ eyebrow, title, text, align = "left" }) {
   return (
@@ -135,7 +136,25 @@ export default function Home() {
               transition={{ duration: 0.8, delay: 0.15 }}
               className="relative mx-auto w-full max-w-xl"
             >
+              {/* Profile photo */}
+              <motion.div
+                initial={{ opacity: 0, scale: 0.8, y: -10 }}
+                animate={{ opacity: 1, scale: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: 0.5 }}
+                className="absolute -right-4 -top-5 z-20 sm:-right-6 sm:-top-6"
+              >
+                <div className="rounded-full border-4 border-slate-950 bg-slate-950 p-1 shadow-2xl shadow-black/40">
+                  <img
+                    src={passportPhoto}
+                    alt="Victor Codes"
+                    className="h-20 w-20 rounded-full object-cover object-center sm:h-24 sm:w-24"
+                  />
+                </div>
 
+                <span className="absolute bottom-1 right-1 h-4 w-4 rounded-full border-2 border-slate-950 bg-emerald-400" />
+              </motion.div>
+
+              
               <div className="relative overflow-hidden rounded-3xl border border-white/10 bg-slate-900 shadow-2xl shadow-black/30">
 
                 {/* Browser top */}

@@ -11,6 +11,7 @@ import SEO from "../components/seo/SEO";
 
 import Container from "../components/ui/Container";
 import Section from "../components/ui/Section";
+import headshot from "../assets/images/victor-headshot.jpg";
 
 const strengths = [
   {
@@ -125,45 +126,24 @@ export default function About() {
               transition={{ duration: 0.6 }}
               className="relative"
             >
-
-              <div className="aspect-4/5 overflow-hidden rounded-4xl bg-slate-100">
-
-                <div className="flex h-full items-center justify-center bg-linear-to-br from-slate-100 via-slate-50 to-violet-100">
-
-                  <div className="text-center">
-
-                    <div className="mx-auto grid h-24 w-24 place-items-center rounded-3xl bg-slate-950 text-3xl font-black text-white shadow-2xl">
-                      VC
-                    </div>
-
-                    <p className="mt-6 text-sm font-bold text-slate-950">
-                      Victor Codes
-                    </p>
-
-                    <p className="mt-1 text-xs text-slate-500">
-                      Web Developer
-                    </p>
-
-                  </div>
-
-                </div>
-
+              <div className="aspect-4/5 overflow-hidden rounded-4xl bg-slate-100 shadow-2xl">
+                <img
+                  src={headshot}
+                  alt="Victor Codes - Web Developer"
+                  className="h-full w-full object-cover object-center transition duration-700 hover:scale-105"
+                />
               </div>
 
               <div className="absolute -bottom-5 -right-5 rounded-2xl border border-slate-200 bg-white p-5 shadow-xl">
-
                 <p className="text-xs font-bold uppercase tracking-[0.18em] text-violet-600">
                   Currently
                 </p>
 
                 <p className="mt-1 text-sm font-bold text-slate-950">
-                  Building & learning
+                  Open for Collaborations
                 </p>
-
               </div>
-
             </motion.div>
-
 
             {/* Copy */}
             <div className="flex flex-col justify-center">

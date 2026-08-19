@@ -15,7 +15,6 @@ import ConsultationPage from './pages/BookConsultation'
 import ScrollToTop from './components/ui/ScrollToTop'
 import WhatsAppButton from './components/ui/WhatsAppButton'
 
-import SEO from './components/seo/SEO'
 import StructuredData from './components/seo/StructuredData'
 
 
@@ -23,7 +22,7 @@ function App() {
   return (
     
     <div className="min-h-screen bg-white text-slate-950">
-      <SEO/>
+     
       <StructuredData/>
 
       <Navbar />
