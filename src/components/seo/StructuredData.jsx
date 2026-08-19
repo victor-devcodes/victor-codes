@@ -1,4 +1,4 @@
-const SITE_URL = "https://victor-codes.netlify.app/";
+const SITE_URL = "https://victor-codes.netlify.app";
 
 export default function StructuredData() {
   const data = {
