@@ -17,7 +17,7 @@ export default function WhatsAppButton() {
       aria-label="Chat with Victor on WhatsApp"
       className="
         button
-        fixed bottom-10 left-6 z-50
+        fixed bottom-8 lg:bottom-10 left-6 z-50
         grid h-14 w-14 place-items-center
         rounded-full
         bg-[#25D366]

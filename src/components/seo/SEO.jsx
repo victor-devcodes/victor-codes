@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-const SITE_URL = "https://victor-codes.netlify.app/";
+const SITE_URL = "https://victor-codes.netlify.app";
 
 const SITE_NAME = "Victor Codes";
 const DEFAULT_IMAGE = `${SITE_URL}/og-image.jpg`;
