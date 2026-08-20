@@ -167,7 +167,7 @@ export default function Home() {
                   </div>
 
                   <span className="text-[10px] uppercase tracking-[0.2em] text-slate-600">
-                    victor-codes.dev
+                    victor----codes
                   </span>
 
                 </div>
